@@ -1,14 +1,12 @@
 version: 0.1
 
 phases:
-  install:
-    runtime-versions: 0.2
   build:
     commands:
       - echo Nothing to do yet
 artifacts:
   files:
-    -index.html
-    -favicon.icon
-    -styles/main.css
+    - index.html
+    - favicon.icon
+    - styles/main.css
     - images/*

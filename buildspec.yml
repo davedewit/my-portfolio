@@ -3,12 +3,12 @@ version: 0.2
 phases:
   install:
       finally:
-        - echno this always runs
+        - echo this always runs
       pre_build:
         commands:
-          - echno entered the pre_build phase...
+          - echo entered the pre_build phase...
           finally:
-            - echno this always runs
+            - echo this always runs
   build:
     commands:
     - echo entered the build phase

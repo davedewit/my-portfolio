@@ -2,7 +2,7 @@ version: 0.1
 
 phases:
   runtime-versions:
-    runtime: 0.2
+   nodejs: 7.0.0
   build:
     commands:
       - echo Nothing to do yet

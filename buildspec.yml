@@ -1,12 +1,12 @@
 version: 0.2
 
 phases:
-  install:
+  install:|
       finally:
         - echo this always runs
       pre_build:
         commands:
-          - echo entered the pre_build phase...
+          - | echo entered the pre_build phase...
           finally:
             - echo this always runs
   build:

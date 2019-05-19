@@ -3,7 +3,7 @@ version: 0.1
 phases:
   install:
     commands:
-      -echno entered install
+      - echno entered install
       finally:
         - echno this always runs
       pre_build:

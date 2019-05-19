@@ -7,3 +7,8 @@ $$ technologies used
 
 git and github
 ssh
+Brew
+html
+css
+font awesome
+google fonts

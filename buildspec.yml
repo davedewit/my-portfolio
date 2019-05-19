@@ -1,8 +1,6 @@
 version: 0.1
 
 phases:
-  install:
-    runtime-versions: 0.2
   build:
     commands:
       - echo Nothing to do yet

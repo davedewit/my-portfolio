@@ -2,9 +2,7 @@ version: 0.1
 
 phases:
   build:
-  runtime-versions:
-   nodejs: 7.0.0
-  build:
+    - echno nothing
     commands:
       - echo Nothing to do yet
 artifacts:

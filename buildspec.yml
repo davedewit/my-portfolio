@@ -1,10 +1,20 @@
 version: 0.1
 
 phases:
-  build:
-    - echno nothing
+  install:
     commands:
-      - echo Nothing to do yet
+      -echno entered install
+      finally:
+        - echno this always runs
+      pre_build:
+        commands:
+          - echno entered the pre_build phase...
+          finally:
+            - echno this always runs
+  build:
+    commands:
+    - echo entered the build phase
+ phase...
 artifacts:
   files:
     - index.html

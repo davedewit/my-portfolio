@@ -11,6 +11,7 @@ phases:
 artifacts:
   files:
     - index.html
-    - favicon.icon
+    - README.md
+    - favicon.ico
     - styles/main.css
     - images/*

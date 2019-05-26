@@ -1,6 +1,6 @@
 import boto3
-import StringIO
 import zipfile
+import StringIO
 import mimetypes
 
 def lambda_handler(event, context):
@@ -43,5 +43,3 @@ def lambda_handler(event, context):
     except:
         topic.publish(Subject="Portfolio Deploy failed", Message="The Portfolio was not deployed successfully!")
         raise
-
-        return 'HEllo from Lambda'

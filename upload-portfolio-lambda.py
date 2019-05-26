@@ -1,6 +1,6 @@
 import boto3
-import zipfile
 import StringIO
+import zipfile
 import mimetypes
 
 def lambda_handler(event, context):

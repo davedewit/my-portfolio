@@ -6,8 +6,8 @@ test
 $$ technologies used
 
 git and github
-ssh
 Brew
+python
 html
 css
 font awesome
